@@ -1,0 +1,42 @@
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /*Thiết đặt các thuộc tính cho phần banner*/
+  .banner {
+    height: 300px;
+  }
+  .banner-name {
+    font-size: 0.75rem;
+  }
+  .banner-name h1 {
+    font-size: 2rem;
+  }
+  /*Thiết lập các thuộc tính cho tiêu đề .cont-th*/
+  .cont-th h2 {
+    flex: 2;
+  }
+  /*Điều chỉnh vị trí cho phù hợp*/
+  #job-info li.cont-imp::before {
+    left: 2%;
+  }
+  #act-info li.cont-imp::before {
+    left: 2%;
+  }
+  #edu-info li.cont-imp::before {
+    left: 2%;
+  }
+  /*Thiết lập các thuộc tính cho .container-cert và thành 2 phần bằng nhau*/
+  .cert-info {
+    border-bottom: 1px solid #e79b9b;
+  }
+  /*Thiết lập các thuộc tính cho #project*/
+  .pro-detail {
+    flex: 1;
+  }
+  /*Thiết lập thuộc tính cho .detail-job2*/
+  .detail-21th {
+    width: 20%;
+  }
+  .detail-21ct {
+    width: 80%;
+  }
+}

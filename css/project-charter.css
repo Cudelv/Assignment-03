@@ -1,0 +1,61 @@
+/*Các thuộc tính chung*/
+body {
+  box-sizing: border-box;
+}
+.bg-div {
+  background-color: #f0f8ff;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+}
+.chart-th {
+  border-bottom: 1px solid #aabfb6;
+}
+i.goals-flag {
+  font-size: 4rem;
+}
+i.team-icon {
+  font-size: 3rem;
+}
+.times-icon {
+  background-color: #9e88ff;
+  border: 2px solid #666;
+}
+.time-line {
+  border-bottom: 1px dashed #52bdc2;
+}
+/* Small devices (landscape phones and tablet, 576px and up to 991px) */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .chart-th {
+    font-size: 3rem;
+  }
+  .times-icon {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-goals {
+    height: 550px;
+  }
+  .col-scopes {
+    height: 400px;
+  }
+  .col-teams {
+    height: 550px;
+  }
+  .col-primarys {
+    height: 400px;
+  }
+  .col-timeline {
+    height: 974px;
+  }
+  .chart-th {
+    font-size: 2rem;
+  }
+  .times-icon {
+    width: 3rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+  }
+}

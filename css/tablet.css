@@ -1,0 +1,84 @@
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*Thiết đặt các thuộc tính cho phần banner*/
+  .banner {
+    height: 400px;
+  }
+  .banner-name {
+    font-size: 0.85rem;
+  }
+  .banner-name h1 {
+    font-size: 2rem;
+  }
+  /*Thiết lập các thuộc tính cho thanh manu Nav_bar*/
+  .nav-bar1 {
+    grid-template-columns: 0.6fr 1fr 1fr 0.5fr 1fr 1fr 0.6fr;
+    border-left: 1px solid #c6c6c6;
+  }
+  .nav-bar1 div:first-child {
+    grid-column: 2/3;
+    border-left: 1px solid #c6c6c6;
+  }
+  .nav-bar1 div:nth-child(4) {
+    grid-column: 5/6;
+    border-left: 1px solid #c6c6c6;
+  }
+  .nav-link1 {
+    border-right: 1px solid #c6c6c6;
+  }
+  /*Kinh nghiệm, học vấn và các hoạt động nổi bật*/
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  /*Thiết lập các thuộc tính cho tiêu đề .cont-th*/
+  .cont-th h2 {
+    flex: 2;
+  }
+  /*Điều chỉnh vị trí cho phù hợp*/
+  #job-info li.cont-imp::before {
+    left: 4%;
+  }
+  #act-info li.cont-imp::before {
+    left: 3%;
+  }
+  #edu-info li.cont-imp::before {
+    left: 53%;
+  }
+  /*Thiết lập các thuộc tính cho section #certificate*/
+  .container-cert {
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cert-info {
+    border-bottom: none;
+  }
+  .cert-info:nth-child(1) {
+    border-right: 1px solid #d6c08d;
+  }
+  .cert-info:last-child {
+    border-right: none;
+  }
+  .container-cert:last-child {
+    border: none;
+  }
+  /*Thiết lập các thuộc tính cho #project*/
+  .pro-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  /*Thiết lập các thuộc tính cho .detail-job1*/
+  .detail-1 {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+  .detail-1 div:last-child {
+    grid-column: 2/3;
+  }
+  /*Thiết lập thuộc tính cho .detail-job2*/
+  .detail-21th {
+    flex: 1;
+  }
+  .detail-21ct {
+    flex: 3;
+  }
+}

@@ -1,0 +1,371 @@
+/*Các thuộc tính chung*/
+html {
+  font-size: 16px;
+}
+body {
+  box-sizing: border-box;
+}
+.banner {
+  text-align: center;
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-name {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-name h1 {
+  letter-spacing: 2px;
+}
+.nav-link1 a {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+.nav-link1 {
+  font-size: 1rem;
+}
+.nav-link1 i {
+  color: #199cdb;
+  font-size: 1.25rem;
+}
+/* Phần chèn ảnh cá nhân nâng cao
+  .name img {
+    width: 125px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 50%;
+  } */
+/*Thiết lập thuộc tính cho phần thông tin bản thân*/
+.bg-grey {
+  line-height: 1.75em;
+}
+.target {
+  background-color: #f5f5f5;
+}
+/*Thong tin ca nhan*/
+.per-info {
+  background-color: #f0f0f0;
+}
+.section-title1 {
+  margin-bottom: 2rem;
+}
+/*Thiet lap cac thuoc tinh cho form*/
+.per-hidden {
+  display: none;
+}
+.per-email {
+  border: 1px solid #b5b8c0;
+}
+.per-check {
+  background-color: #199cdb;
+  border: none;
+  cursor: pointer;
+}
+/*Thiết lập các thuộc tính cho phần địa chỉ liên hệ*/
+.contact-info:hover > :not(:hover) {
+  opacity: 0.2;
+}
+.contact-me {
+  transition: 0.35;
+  cursor: pointer;
+}
+.contact-me i {
+  color: #199cdb;
+  font-size: larger;
+}
+a.contact-me i:hover {
+  background-color: #4e79c4;
+  border-radius: 25px;
+  color: #fff;
+  transform: scale(1.5);
+  transition: 0.35s;
+  padding: 3px;
+}
+/*Ẩn nội dung cho phan - detail*/
+.detail-hidden {
+  display: none;
+}
+/*Ẩn nút btn-*/
+.btn-hidden {
+  display: none;
+}
+.btn-view {
+  background-color: #e2dfc5;
+  border: none;
+}
+.main {
+  line-height: 1.45rem;
+}
+/*Chèn bullet cho .cont-th và thiết lập các thuộc tính liên quan*/
+#job-info li.cont-imp::before {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 0.15rem solid #e2e0e0;
+  background-color: #199cdb;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: #199cdb;
+  margin-top: 0.25rem;
+}
+#edu-info li.cont-imp::before {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 0.15rem solid #e2e0e0;
+  background-color: #199cdb;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: #199cdb;
+  margin-top: 0.25rem;
+}
+#act-info li.cont-imp::before {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 0.15rem solid #e2e0e0;
+  background-color: #199cdb;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: #199cdb;
+  margin-top: 0.25rem;
+}
+.cont-th {
+  height: 4rem;
+}
+.cont-th i {
+  flex: 1;
+  font-size: 2rem;
+  color: #bec4d1;
+}
+.cont-detail ul {
+  list-style-type: none;
+}
+ul.cont-list {
+  list-style-position: inside;
+}
+.cont-list li:before {
+  content: "-";
+  margin-right: 0.1rem;
+}
+.cont-time1 span {
+  background-color: #199cdb;
+}
+/*Thiết lập các thuộc tính cho section #hob-info */
+.hobbies {
+  min-width: 70px;
+}
+.hobbies i {
+  width: 1.45rem;
+  height: 1.45rem;
+  border: 1px solid #9edfff;
+  color: #9edfff;
+}
+/* Thiết lập thuộc tính section #lang-info & section #skill-info */
+.cont-lv {
+  gap: 0.8rem;
+}
+/*Tạo các thanh đánh giá rank-bar*/
+.lv {
+  border: 2px solid #3ca4d4;
+  width: 3rem;
+}
+.lv:last-child {
+  border: 2px solid #c2c2c2;
+}
+.lv-one .lv:nth-child(2) {
+  border: 2px solid #c2c2c2;
+}
+#job-info {
+  border: 1px solid #f4f4f4;
+}
+#edu-info {
+  border: 1px solid #f4f4f4;
+}
+#act-info {
+  border: 1px solid #f4f4f4;
+}
+#hob-info {
+  border: 1px solid #f4f4f4;
+}
+#lang-info {
+  border: 1px solid #f4f4f4;
+}
+#skill-info {
+  border: 1px solid #f4f4f4;
+}
+/*Thiết lập các thuộc tính cho section #certificate*/
+#certificate {
+  background-color: #f7f7f7;
+}
+.cert-detail {
+  line-height: 1.45rem;
+}
+.cert-detail ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+.cert-detail li:before {
+  content: "-";
+  margin-right: 0.25rem;
+}
+.pro-detail {
+  border: 1px solid #f4f4f4;
+}
+/*Thiết lập các thuộc tính cho phần nội dung chi tiết*/
+.detail-th {
+  height: 75px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.detail-1 div:first-child p {
+  width: 5rem;
+  border: 1px solid #199cdb;
+  background-color: #199cdb;
+}
+.detail-1 div:nth-child(2) {
+  color: #777777;
+}
+.detail-1 div:last-child {
+  color: #777777;
+}
+.detail-2 {
+  grid-template-rows: repeat(3, auto);
+  border-top: 1px solid #e1e1e1;
+}
+.detail-21 {
+  border-bottom: 1px solid #e1e1e1;
+}
+.detail-2 div.detail-21:last-child {
+  border-bottom: none;
+}
+ul.list-ct1 {
+  list-style-type: none;
+  list-style-position: outside;
+}
+ul.list-ct1 li {
+  display: inline-block;
+}
+ul.list-ct1 li::before {
+  content: "-";
+  margin-right: 0.25rem;
+}
+/*Thiết lập các thuộc tính cho footer*/
+footer {
+  background-color: #f7f7f7;
+}
+.contact {
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+.contact div:first-child {
+  grid-column: 3/4;
+}
+.contact-bar i {
+  font-size: 200%;
+  color: #199cdb;
+}
+div.contact-bar a {
+  color: #a3a3a3;
+}
+/*Tạo các hiệu ứng cho footer*/
+.contact:hover > :not(:hover) {
+  opacity: 0.4;
+}
+.contact-bar:hover {
+  cursor: pointer;
+  background-color: #c7cac6;
+}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*Thiết đặt các thuộc tính cho phần banner*/
+  .banner {
+    height: 500px;
+  }
+  .banner-name {
+    font-size: 1rem;
+  }
+  .banner-name h1 {
+    font-size: 3rem;
+  }
+  /*Thiết lập các thuộc tính cho thanh manu Nav_bar*/
+  .nav-bar1 {
+    grid-template-columns: 1.25fr 1fr 1fr 0.6fr 1fr 1fr 1.25fr;
+    border-left: 1px solid #c6c6c6;
+  }
+  .nav-bar1 div:first-child {
+    grid-column: 2/3;
+    border-left: 1px solid #c6c6c6;
+  }
+  .nav-bar1 div:nth-child(4) {
+    grid-column: 5/6;
+    border-left: 1px solid #c6c6c6;
+  }
+  .nav-link1 {
+    border-right: 1px solid #c6c6c6;
+  }
+  /*Kinh nghiệm, học vấn và các hoạt động nổi bật*/
+  .main {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  /*Thiết lập các thuộc tính cho tiêu đề .cont-th*/
+  .cont-th h2 {
+    flex: 3;
+  }
+  /*Điều chỉnh vị trí cho phù hợp*/
+  #job-info li.cont-imp::before {
+    left: 5.5%;
+  }
+  #edu-info li.cont-imp::before {
+    left: 36%;
+  }
+  #act-info li.cont-imp::before {
+    left: 68%;
+  }
+
+  .container-cert {
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cert-info {
+    border-bottom: none;
+  }
+  /*Thiết lập định dạng cho các phần tử của .cert-info*/
+  .info-pic {
+    flex: 1;
+  }
+  .cert-detail {
+    flex: 1;
+  }
+  /*Thiết lập các thuộc tính cho #project*/
+  .pro-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  /*Thiết lập các thuộc tính cho .detail-job1*/
+  .detail-1 {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+  .detail-1 div:last-child {
+    grid-column: 2/3;
+  }
+  /*Thiết lập thuộc tính cho .detail-job2*/
+  .detail-21th {
+    flex: 1;
+  }
+  .detail-21ct {
+    flex: 3;
+  }
+}
