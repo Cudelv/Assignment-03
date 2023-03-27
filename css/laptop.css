@@ -102,7 +102,9 @@ a.contact-me i:hover {
   line-height: 1.45rem;
 }
 /*Chèn bullet cho .cont-th và thiết lập các thuộc tính liên quan*/
-#job-info li.cont-imp::before {
+li.cont-imp {
+  position: relative;
+li.cont-imp::before {
   content: "";
   position: absolute;
   width: 0.8rem;
@@ -110,32 +112,7 @@ a.contact-me i:hover {
   border: 0.15rem solid #e2e0e0;
   background-color: #199cdb;
   border-radius: 50%;
-  z-index: 1;
-  font-size: 1.5rem;
-  color: #199cdb;
-  margin-top: 0.25rem;
-}
-#edu-info li.cont-imp::before {
-  content: "";
-  position: absolute;
-  width: 0.8rem;
-  height: 0.8rem;
-  border: 0.15rem solid #e2e0e0;
-  background-color: #199cdb;
-  border-radius: 50%;
-  z-index: 1;
-  font-size: 1.5rem;
-  color: #199cdb;
-  margin-top: 0.25rem;
-}
-#act-info li.cont-imp::before {
-  content: "";
-  position: absolute;
-  width: 0.8rem;
-  height: 0.8rem;
-  border: 0.15rem solid #e2e0e0;
-  background-color: #199cdb;
-  border-radius: 50%;
+  left: 0;
   z-index: 1;
   font-size: 1.5rem;
   color: #199cdb;
