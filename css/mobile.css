@@ -14,17 +14,7 @@
   .cont-th h2 {
     flex: 2;
   }
-  /*Điều chỉnh vị trí cho phù hợp*/
-  #job-info li.cont-imp::before {
-    left: 2%;
-  }
-  #act-info li.cont-imp::before {
-    left: 2%;
-  }
-  #edu-info li.cont-imp::before {
-    left: 2%;
-  }
-  /*Thiết lập các thuộc tính cho .container-cert và thành 2 phần bằng nhau*/
+   /*Thiết lập các thuộc tính cho .container-cert và thành 2 phần bằng nhau*/
   .cert-info {
     border-bottom: 1px solid #e79b9b;
   }
